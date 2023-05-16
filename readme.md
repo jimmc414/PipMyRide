@@ -21,6 +21,11 @@ pip install pyperclip nbconvert collections nbformat os requests pathlib re
 5. Wait for the script to process all the files and generate the pip install command.
 6. The command will be copied to your clipboard and console. You can paste it in your terminal or command prompt to install the required libraries.
 
+## Use Case
+
+- Works if you want to install necessary libraries for a python repository local or remote.
+- More interesting Use Case is as a succinct way to pass information about a Repository to a Large Language Model for Q&A.
+
 ## Example
 
 
