@@ -28,6 +28,8 @@ pip install pyperclip nbconvert collections nbformat os requests pathlib re
 
 ## Example
 
+![image](https://github.com/jimmc414/PipMyRide/assets/6346529/9def8f69-1c54-4e6c-9cf4-8734bd4b2c15)
+
 
 ## How it works
 
