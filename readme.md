@@ -23,12 +23,7 @@ pip install pyperclip nbconvert collections nbformat os requests pathlib re
 
 ## Use Case
 
-- Works if you want to install necessary libraries for a python repository local or remote.
-- More interesting Use Case is as a succinct way to pass information about a Repository to a Large Language Model for Q&A.
-
-## Example
-
-![image](https://github.com/jimmc414/PipMyRide/assets/6346529/9def8f69-1c54-4e6c-9cf4-8734bd4b2c15)
+- Works if you want to install necessary libraries for an entire python repository local or remote.
 
 
 ## How it works
@@ -41,6 +36,12 @@ pip install pyperclip nbconvert collections nbformat os requests pathlib re
 - It extracts all the imported libraries from the text file using regular expressions and re module and stores them in a set.
 - It generates a pip install command using the libraries and joins them with spaces using str.join method.
 - It copies the command to the clipboard using pyperclip module and prints it to the console using print function.
+
+
+## Example
+
+![image](https://github.com/jimmc414/PipMyRide/assets/6346529/9def8f69-1c54-4e6c-9cf4-8734bd4b2c15)
+
 
 ## License
 
