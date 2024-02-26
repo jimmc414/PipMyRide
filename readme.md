@@ -5,10 +5,7 @@ PipMyRide is a Python script that generates a pip install command from remote or
 ## Requirements
 
 - Python 3.6 or higher
-- Requests
-- Pyperclip
-- Nbformat
-- Nbconvert
+  
 ```
 pip install pyperclip nbconvert collections nbformat os requests pathlib re
 ```
